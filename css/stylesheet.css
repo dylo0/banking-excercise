@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.container {
+    margin-top: 50px;
+}
+
+.content {
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 20px 5px #aaa;
+    -moz-box-shadow: 0px 0px 20px 5px #aaa;
+    box-shadow: 0px 0px 20px 5px #aaa;
+}
+
+.title{
+    font-weight:bold;
+    color:#12226F;
+    text-align:center;
+    font-size:28px;
+    line-height:32px;
+    margin-top: 50px;
+}
+
+.small input {
+    margin-right: 5px;
+}
+
+button {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    background-color: #FE8000;
+    font-size: 25px;
+    font-weight:500;
+    color: #fefefe;
+    width:336px;
+    height:60px;
+}
+
+.advertisment {
+    margin-top: 30px;
+    padding-top: 22px;
+    padding-left: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fefefe;
+    background:url(../images/arrow.jpg) no-repeat;
+    height:75px;
+}
+
+.check {
+    height:30px;
+    text-align:center;
+    margin-right:20px;
+}
+
+.home {
+    margin-top: 30px
+}
+
+.home span {
+    color:#12226f;
+    padding-top: 16px;
+    font-size:16px;
+    font-weight:bold;
+}
+
+li.costco{
+    background: url(../images/costco.jpg) no-repeat 27px 2px;
+    padding-left:140px;
+}
+
+.field select, .field input{
+    width:170px;
+}
+
+.navigation-menu{
+    display:none;
+}
+
+ul, ol {
+    margin:inherit;
+    padding-left:inherit;
+}
+
+.top-green-capwest{
+    width:100%; 
+    background:url(../images/capwest-header.jpg) no-repeat top center #83BD4F;
+    height:109px;
+    text-align:center;
+}
+
+.links ul{
+    list-style:none;
+    margin-top: 40px;
+    padding:0
+}
+
+.links li{
+    background:url("../images/check.jpg") no-repeat scroll 22px -5px transparent;
+    color:#12226F;
+    font-size:20px;
+    padding-bottom:15px;
+    padding-left:60px;
+}
+
+.field{
+    height:35px;
+}
+
+input[type=text], input[type=password], input.text, input.title, textarea, select {
+    background-color: #fff;
+    border: 1px solid #bbb;
+}
+
+.form-background {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    background-color: #CEDFEF;
+    border-radius: 20px;
+    padding:10px;
+    -webkit-box-shadow: 0px 0px 10px 2px #aaa;
+    -moz-box-shadow: 0px 0px 10px 2px #aaa;
+    box-shadow: 0px 0px 10px 2px #aaa;
+}
+
+.quicken-header, .quicken-footer {
+    background-color: #f6f6f6;
+    padding-top: 20px
+}
+
+.quicken-header {
+    margin-bottom: 30px;
+    border-radius: 10px 10px 0 0;
+    height: 100px
+}
+
+.quicken-footer {
+    margin-top: 30px;
+    border-radius: 0 0 10px 10px;
+    height: 70px;
+}
